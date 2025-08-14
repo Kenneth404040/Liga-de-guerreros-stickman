@@ -1,9 +1,0 @@
-body {
-  background: url('theme.png') center/cover no-repeat fixed;
-}
-
-.theme {
-  background: url('theme.png') center/contain no-repeat;
-  height: 400px;
-  width: 100%;
-}
