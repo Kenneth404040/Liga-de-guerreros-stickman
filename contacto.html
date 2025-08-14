@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>🜃 Puerta al Éter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('./img/theme.png') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Roboto', sans-serif;
+      color: #000;
+    }
+
+    nav {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #555;
+    }
+
+    .form-container {
+      background-color: rgba(255, 255, 255, 0.85);
+      max-width: 500px;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      text-align: center;
+      font-size: 1em;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      background-color: rgba(255, 255, 255, 0.9);
+      color: #000;
+      font-size: 1em;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #222;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #444;
+    }
+
+    .scuox-message {
+      text-align: center;
+      margin-top: 30px;
+      font-weight: bold;
+      font-size: 1.1em;
+      color: #111;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="personajes.html">Personajes</a>
+    <a href="curiosidades.html">Curiosidades</a>
+    <a href="nosotros.html">Sobre Nosotros</a>
+    <a href="contacto.html">Contáctanos</a>
+  </nav>
+
+  <div class="form-container">
+    <h1>🜃 Puerta al Éter</h1>
+    <p>Envía tu mensaje simbólico directamente al sanctuario digital.</p>
+    <form action="https://formspree.io/f/mpwlnzey" method="POST">
+      <label for="email">🜁 Correo electrónico</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="subject">🜂 Asunto</label>
+      <input type="text" id="subject" name="subject" required>
+
+      <label for="message">🜄 Mensaje simbólico</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">🜃 Enviar al éter</button>
+    </form>
+
+    <div class="scuox-message">
+      Soy el Rey Scuox, te espero para controlar y opinar de estos muchachos 🔥
+    </div>
+  </div>
+
+</body>
+</html>
