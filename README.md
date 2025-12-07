@@ -1,6 +1,6 @@
 # 🜄 Raven's Digital Sanctuary
 
-Bienvenido a mi espacio ritualizado de autonomía creativa. Este proyecto es una ofrenda modular, accesible y simbólica, construido con HTML puro y filosofía neurodivergente.
+Bienvenido a mi espacio ritualizado de autonomía creativa. Este proyecto es una ofrenda modular, accesible y simbólica, construido con HTML puro y mi filosofía 
 
 ## 🔧 Características
 
